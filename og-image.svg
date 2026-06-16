@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a"/>
+      <stop offset="60%" style="stop-color:#2563eb"/>
+      <stop offset="100%" style="stop-color:#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgba(255,255,255,0.13)"/>
+      <stop offset="100%" style="stop-color:rgba(255,255,255,0.05)"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="1080" cy="80"  r="180" fill="rgba(255,255,255,0.05)"/>
+  <circle cx="1150" cy="500" r="130" fill="rgba(255,255,255,0.04)"/>
+  <circle cx="80"   cy="560" r="150" fill="rgba(255,255,255,0.04)"/>
+  <circle cx="40"   cy="100" r="90"  fill="rgba(255,255,255,0.06)"/>
+
+  <!-- Grid dots pattern -->
+  <g fill="rgba(255,255,255,0.08)">
+    <circle cx="200" cy="200" r="3"/><circle cx="280" cy="200" r="3"/><circle cx="360" cy="200" r="3"/>
+    <circle cx="200" cy="280" r="3"/><circle cx="280" cy="280" r="3"/><circle cx="360" cy="280" r="3"/>
+    <circle cx="200" cy="360" r="3"/><circle cx="280" cy="360" r="3"/><circle cx="360" cy="360" r="3"/>
+  </g>
+
+  <!-- Calculator icon card -->
+  <rect x="80" y="200" width="160" height="200" rx="22" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/>
+  <!-- Screen -->
+  <rect x="100" y="220" width="120" height="50" rx="8" fill="rgba(255,255,255,0.2)"/>
+  <text x="215" y="253" text-anchor="end" fill="#fff" font-family="monospace" font-size="20" font-weight="700">1,234</text>
+  <!-- Buttons -->
+  <rect x="100" y="284" width="24" height="22" rx="5" fill="rgba(255,255,255,0.25)"/>
+  <rect x="132" y="284" width="24" height="22" rx="5" fill="rgba(255,255,255,0.25)"/>
+  <rect x="164" y="284" width="24" height="22" rx="5" fill="#fbbf24" opacity="0.9"/>
+  <rect x="100" y="314" width="24" height="22" rx="5" fill="rgba(255,255,255,0.25)"/>
+  <rect x="132" y="314" width="24" height="22" rx="5" fill="rgba(255,255,255,0.25)"/>
+  <rect x="164" y="314" width="24" height="22" rx="5" fill="rgba(255,255,255,0.25)"/>
+  <rect x="100" y="344" width="56" height="22" rx="5" fill="rgba(255,255,255,0.25)"/>
+  <rect x="164" y="344" width="24" height="22" rx="5" fill="#fbbf24" opacity="0.9"/>
+
+  <!-- Main title -->
+  <text x="290" y="295" fill="#ffffff" font-family="system-ui,-apple-system,sans-serif" font-size="82" font-weight="900" letter-spacing="-2" filter="url(#glow)">Finance</text>
+  <text x="290" y="385" fill="#fbbf24" font-family="system-ui,-apple-system,sans-serif" font-size="82" font-weight="900" letter-spacing="-2">Calculator</text>
+
+  <!-- Tagline -->
+  <text x="290" y="430" fill="rgba(255,255,255,0.80)" font-family="system-ui,sans-serif" font-size="26">Free online calculators — Loan · Mortgage · EMI · Tax · Currency</text>
+
+  <!-- Divider line -->
+  <rect x="290" y="450" width="700" height="2" rx="1" fill="rgba(255,255,255,0.18)"/>
+
+  <!-- Feature pills -->
+  <rect x="290" y="468" width="110" height="36" rx="18" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <text x="345" y="491" text-anchor="middle" fill="#fff" font-family="system-ui,sans-serif" font-size="17" font-weight="600">11+ Tools</text>
+
+  <rect x="416" y="468" width="130" height="36" rx="18" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <text x="481" y="491" text-anchor="middle" fill="#fff" font-family="system-ui,sans-serif" font-size="17" font-weight="600">EN &amp; RU</text>
+
+  <rect x="562" y="468" width="120" height="36" rx="18" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <text x="622" y="491" text-anchor="middle" fill="#fff" font-family="system-ui,sans-serif" font-size="17" font-weight="600">100% Free</text>
+
+  <rect x="698" y="468" width="170" height="36" rx="18" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <text x="783" y="491" text-anchor="middle" fill="#fff" font-family="system-ui,sans-serif" font-size="17" font-weight="600">Live Results</text>
+
+  <!-- Domain badge bottom right -->
+  <rect x="910" y="468" width="270" height="36" rx="18" fill="rgba(251,191,36,0.2)" stroke="rgba(251,191,36,0.5)" stroke-width="1.5"/>
+  <text x="1045" y="491" text-anchor="middle" fill="#fbbf24" font-family="system-ui,sans-serif" font-size="18" font-weight="700">financcalculator.ru</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="600" width="1200" height="30" fill="rgba(0,0,0,0.2)"/>
+  <text x="600" y="621" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-family="system-ui,sans-serif" font-size="14">Compound Interest · Deposit · Loan · Mortgage · EMI · VAT · BMI · Tax · Currency · Scientific Calculator</text>
+</svg>
